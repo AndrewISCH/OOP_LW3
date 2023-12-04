@@ -18,114 +18,30 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="*" />
                             </Grid.RowDefinitions>
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="Start" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="Start"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="End"
-                                WidthRequest="2" />
+                            
                         </Grid>
+                       
                     </ScrollView>
+                    <Label Text ="Edit menu" FontSize="Title"/>
                     <ScrollView>
                         <Grid
                             HorizontalOptions="Center"
                             VerticalOptions="FillAndExpand"
                             WidthRequest="400">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="40" />
                                 <RowDefinition Height="70" />
-                                <RowDefinition Height="100" />
-                                <RowDefinition Height="50" />
-                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="70" />
+                                <RowDefinition Height="70" />
+                                <RowDefinition Height="70" />
+                                <RowDefinition Height="70" />
+                                <RowDefinition Height="70" />
                             </Grid.RowDefinitions>
 
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="200" />
                                 <ColumnDefinition Width="200" />
                             </Grid.ColumnDefinitions>
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="1"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="2"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="3"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="4"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="End"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="4"
-                                Grid.Column="1"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="End"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="4"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="Start"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="5"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="Start"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="5"
-                                Grid.Column="1"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="End"
-                                WidthRequest="2" />
-
+                           
                             <Label
                                 Grid.Row="0"
                                 Grid.Column="0"
@@ -216,56 +132,7 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="40" />
                             </Grid.RowDefinitions>
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="1"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="2"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-                            <BoxView
-                                Grid.Row="3"
-                                Grid.Column="0"
-                                Grid.ColumnSpan="2"
-                                BackgroundColor="#948e99"
-                                HeightRequest="2"
-                                VerticalOptions="End" />
-
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="4"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="End"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="4"
-                                Grid.Column="1"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="End"
-                                WidthRequest="2" />
-                            <BoxView
-                                Grid.Row="0"
-                                Grid.RowSpan="4"
-                                Grid.Column="0"
-                                BackgroundColor="#948e99"
-                                HorizontalOptions="Start"
-                                WidthRequest="2" />
+                            
 
                         </Grid>
                     </ScrollView>
